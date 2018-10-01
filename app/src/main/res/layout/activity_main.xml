@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/userlogo"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:layout_below="@+id/editText1"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:layout_below="@id/editText2"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#48d9be"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/checkBox1"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forget username or password?"
+        android:layout_below="@id/button1"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

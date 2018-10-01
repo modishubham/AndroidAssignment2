@@ -1,0 +1,10 @@
+Exercise - 
+
+
+1. Relative- Create a login form using the relative layout consisting:
+   Logo image, email, password, remember me(checkbox), forgot password, login button, etc. 
+
+2. ConstraintLayout - Create a layout consisting of title, description, image, likes, comments, shares, date viewed on, created by, etc. Please refer to the image attached. (just for reference) 
+
+3.RecyclerView - Create a RecyclerView to show the some of the news use the data from the API - https://newsapi.org/s/google-news-api (Just copy the data)
+
